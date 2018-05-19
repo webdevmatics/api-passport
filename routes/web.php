@@ -1,5 +1,8 @@
 <?php
 
+use App\Contact;
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,6 +15,8 @@
 */
 
 Route::get('/', function () {
+
+    
     return view('welcome');
 });
 

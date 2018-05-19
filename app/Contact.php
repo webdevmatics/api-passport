@@ -14,4 +14,10 @@ class Contact extends Model
     	return $this->belongsTo(User::class);
     	
     }
+
+    public function hey($name=null,$type=false)
+    {
+        return $name;
+        
+    }
 }
